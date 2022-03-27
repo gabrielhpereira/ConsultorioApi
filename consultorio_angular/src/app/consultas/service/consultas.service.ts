@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { tap, delay, take } from 'rxjs/operators';
 
 import { Consulta } from '../model/consulta';
 
@@ -15,4 +16,9 @@ export class ConsultasService {
   list() {
     return this.httpClient.get<Consulta[]>(this.API);
   }
+
+  create(Consulta: any) {
+    return this.httpClient.post(this.API, Consulta).pipe(take(1));
+  }
+
 }

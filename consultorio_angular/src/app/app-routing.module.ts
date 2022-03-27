@@ -11,11 +11,6 @@ const routes: Routes = [
   {
     path: 'medicos',
     loadChildren: () => import('./medicos/medicos.module').then(m=>m.MedicosModule)
-  },
-  { path: '', pathMatch: 'full', redirectTo: 'cadastrar' },
-  {
-    path: 'cadastrar',
-    loadChildren: () => import('./cadastrarcons/cadastrarcons.module').then(m=>m.CadastrarconsModule)
   }
 ];
 
