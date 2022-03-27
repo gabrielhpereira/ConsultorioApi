@@ -2,9 +2,9 @@
 
 ## Como executar o projeto angular
 
-"npm install" para baixar os pacotes node"
+"npm install" para baixar os pacotes node
 
-"npm run start" para iniciar a aplicação"
+"npm run start" para iniciar a aplicação
 
 ## Como executar o projeto spring
 
