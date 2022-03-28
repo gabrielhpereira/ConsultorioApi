@@ -5,12 +5,9 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
 import { SharedModule } from '../shared/shared.module';
 import { MedicosRoutingModule } from './medicos-routing.module';
 import { MedicosComponent } from './medicos/medicos.component';
-import { CadastrarMedicosComponent } from './cadastrar-medicos/cadastrar-medicos.component';
-
 @NgModule({
   declarations: [
-    MedicosComponent,
-    CadastrarMedicosComponent
+    MedicosComponent
   ],
   imports: [
     CommonModule,
