@@ -5,8 +5,6 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
 import { SharedModule } from '../shared/shared.module';
 import { ConsultasRoutingModule } from './consultas-routing.module';
 import { ConsultasComponent } from './consultas/consultas.component';
-import { FormsModule } from '@angular/forms';
-import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -16,9 +14,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     CommonModule,
     ConsultasRoutingModule,
     AppMaterialModule,
-    SharedModule,
-    FormsModule,
-    MatFormFieldModule
+    SharedModule
     ]
 })
 export class ConsultasModule { }
