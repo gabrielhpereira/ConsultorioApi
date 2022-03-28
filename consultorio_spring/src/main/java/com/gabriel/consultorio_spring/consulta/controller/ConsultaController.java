@@ -1,7 +1,7 @@
-package com.gabriel.consultorio_spring.controller;
+package com.gabriel.consultorio_spring.consulta.controller;
 
-import com.gabriel.consultorio_spring.model.Consulta;
-import com.gabriel.consultorio_spring.repository.ConsultaRepository;
+import com.gabriel.consultorio_spring.consulta.model.Consulta;
+import com.gabriel.consultorio_spring.consulta.repository.ConsultaRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

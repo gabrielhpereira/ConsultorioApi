@@ -1,7 +1,7 @@
-package com.gabriel.consultorio_spring.controller;
+package com.gabriel.consultorio_spring.medico.controller;
 
-import com.gabriel.consultorio_spring.model.Medico;
-import com.gabriel.consultorio_spring.repository.MedicoRepository;
+import com.gabriel.consultorio_spring.medico.model.Medico;
+import com.gabriel.consultorio_spring.medico.repository.MedicoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

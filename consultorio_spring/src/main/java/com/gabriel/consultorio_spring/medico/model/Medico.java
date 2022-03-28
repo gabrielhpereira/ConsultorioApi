@@ -1,4 +1,4 @@
-package com.gabriel.consultorio_spring.model;
+package com.gabriel.consultorio_spring.medico.model;
 
 import lombok.Data;
 import javax.persistence.*;

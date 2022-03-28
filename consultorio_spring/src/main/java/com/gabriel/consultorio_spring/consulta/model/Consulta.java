@@ -1,4 +1,4 @@
-package com.gabriel.consultorio_spring.model;
+package com.gabriel.consultorio_spring.consulta.model;
 
 import lombok.Data;
 

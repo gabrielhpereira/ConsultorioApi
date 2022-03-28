@@ -1,6 +1,6 @@
-package com.gabriel.consultorio_spring.repository;
+package com.gabriel.consultorio_spring.consulta.repository;
 
-import com.gabriel.consultorio_spring.model.Consulta;
+import com.gabriel.consultorio_spring.consulta.model.Consulta;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
