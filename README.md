@@ -1,7 +1,9 @@
 # Consultorio Angular
 
 Angular versão 13.3.0
+
 Java 17
+
 Spring 2.6.4
 
 ## Como executar o projeto angular
