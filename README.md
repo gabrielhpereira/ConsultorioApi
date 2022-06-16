@@ -13,6 +13,4 @@ Spring 2.6.4
 
 "npm run start" para iniciar a aplicação
 
-## Como executar o projeto spring 
-
 "mvn spring-boot:run" para iniciar a aplicação

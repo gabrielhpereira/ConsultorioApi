@@ -3,6 +3,7 @@ package com.gabriel.consultorio_spring.medico.controller;
 import com.gabriel.consultorio_spring.medico.model.Medico;
 import com.gabriel.consultorio_spring.medico.repository.MedicoRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,7 +12,8 @@ import java.util.List;
 @RequestMapping("/api/medicos")
 @AllArgsConstructor
 public class MedicoController {
-    private final MedicoRepository medicoRepository;
+    @Autowired
+    private MedicoRepository medicoRepository;
 
     @GetMapping("/")
     public List<Medico>all(){
