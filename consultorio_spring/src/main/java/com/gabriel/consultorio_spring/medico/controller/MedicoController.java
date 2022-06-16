@@ -12,6 +12,7 @@ import java.util.List;
 @RequestMapping("/api/medicos")
 @AllArgsConstructor
 public class MedicoController {
+
     @Autowired
     private MedicoRepository medicoRepository;
 
