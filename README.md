@@ -1,5 +1,5 @@
 # Consultorio Angular
-
+## Feito com Java 17 e angular 13
 ## Como executar o projeto angular
 
 "npm install" para baixar os pacotes node
